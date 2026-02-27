@@ -1,0 +1,31 @@
+a) -rwxr-xr--
+   Type: regular file (leading dash)
+   Owner:  rwx  → can read, write, AND execute
+   Group:  r-x  → can read and execute, but NOT write
+   Others: r--  → can only read; cannot write or execute
+
+b) drwxrwx---
+   Type: directory (leading 'd')
+   Owner:  rwx  → full access: list, create files, and traverse the directory
+   Group:  rwx  → same full access as owner
+   Others: ---  → NO access at all; cannot even list or enter the directory
+
+c) -rw-r--r--
+   Type: regular file
+   Owner:  rw-  → can read and write, but NOT execute
+   Group:  r--  → can only read; no write or execute
+   Others: r--  → can only read; no write or execute
+   
+
+d) chmod 750 file
+   Octal breakdown: 7=rwx, 5=r-x, 0=---
+   Owner:  rwx  → full read, write, and execute
+   Group:  r-x  → can read and execute, but NOT write
+   Others: ---  → no permissions whatsoever
+
+e) chmod 600 file
+   Octal breakdown: 6=rw-, 0=---, 0=---
+   Owner:  rw-  → can read and write, but NOT execute
+   Group:  ---  → no permissions
+   Others: ---  → no permissions
+   
