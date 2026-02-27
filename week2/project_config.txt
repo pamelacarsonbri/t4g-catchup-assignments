@@ -1,0 +1,2 @@
+# Only the owner can read and write it. Group members and all others have zero access — they cannot even see the file's contents.
+
