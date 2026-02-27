@@ -1,0 +1,14 @@
+tree:
+tree is useful for backend developers because it visually displays the entire
+directory structure of a project in a readable tree format, making it easy to
+quickly understand how a codebase or workspace is organised without navigating
+each folder manually. It is especially handy for documenting project layouts or
+verifying that generated folder structures were created correctly.
+
+htop:
+htop is useful for backend developers because it provides a real-time,
+colour-coded overview of CPU, memory, and process usage on a Linux server,
+allowing developers to quickly identify runaway processes, memory leaks, or
+resource bottlenecks that could impact the performance of a backend application.
+Unlike the basic top command, htop supports mouse interaction and lets you kill
+or filter processes interactively without leaving the terminal.
